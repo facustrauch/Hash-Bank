@@ -245,11 +245,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .btn-custom-in {
 	text-transform: uppercase;
-	color: var(--white);
+	color: var(--mainprimary);
 	background-color: transparent;
 	padding: 10px 20px;
 	letter-spacing: 1px;
-	margin: 0;
 	font-size: 17px;
 	font-weight: 400;
 	border-radius: 0px;
@@ -324,6 +323,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	min-height: 100vh;
 	background: var(--mainprimary);
 	display: flex;
+}
+
+.hugetext{
+	font-size: 80px;
+	color: white;
+	text-align: center;
 }
 
 #tickets{
@@ -444,17 +449,13 @@ ol.type li a:hover {
 }
 /* Testimonials Section */
 #team {
-	background: var(--grey) url(../img/testimonials-bg.jpg) center center no-repeat fixed;
+	background: var(--white) url(../img/team/background.png) center center no-repeat;
 	background-size: cover;
 	min-height: 100vh;
 }
 #team .overlay {
     padding: 120px 0px 90px 0px;
-	background: rgba(0, 119, 182, 0.85);
 	min-height: 100vh;
-}
-#team h2 {
-	color: var(--white);
 }
 #team hr {
 	background: rgba(255,255,255,0.6);
@@ -500,7 +501,9 @@ ol.type li a:hover {
 /* Contact Section */
 #contact {
 	padding: 100px 0;
-	background: var(--background);
+	background: var(--background) url(../img/contact/world-map.svg) center center no-repeat;
+	background-size: cover;
+	min-height: 100vh;
 }
 #contact .section-title p {
 	color: var(--grey);
@@ -625,5 +628,5 @@ color: var(--grey);
 	color: var(--mainprimary);
 }
 #footer a:hover {
-	color: var(--mainprimary);
+	color: var(--maindark);
 }
