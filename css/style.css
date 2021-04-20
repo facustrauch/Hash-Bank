@@ -1,7 +1,7 @@
 :root {
 	--background: #fbfbfb;
-	--mainprimary:   #B7934B;
-	--maindark: #855f19;
+	--mainprimary:   #1589B1;
+	--maindark: #173C81;
 	--black:  #000000;
 	--white: #FFFFFF;
 	--grey: #666666;
@@ -45,6 +45,9 @@ p.intro {
 	margin: 12px 0 0;
 	line-height: 24px;
 }
+.p15{
+	padding: 0px 15px;
+}
 a {
 	color: var(--mainprimary);
 	font-weight: 400;
@@ -57,6 +60,7 @@ a:hover, a:focus {
 	font-size: 17px;
     text-align: right;
     margin-bottom: 5px;
+	color:  var(--white);
 }
 .subtitle{
 	text-transform: uppercase;
@@ -69,6 +73,7 @@ a:hover, a:focus {
     color: var(--mainprimary);
     text-align: center;
 	font-weight: 700;
+	padding: 20px 15px;
 }
 .italic{
 	font-style: italic;
@@ -128,7 +133,7 @@ hr {
 
 /* Navigation */
 #menu {
-	padding: 20px;
+	padding: 15px 0px 10px 0px;
 	transition: all 0.8s;
 }
 .logo_img{
@@ -157,7 +162,8 @@ hr {
 }
 
 #menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
+	/*background-color: rgba(248, 248, 248, 0);*/
+	background-color: var(--white);
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
@@ -302,6 +308,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	flex-direction: column;
 }
 
+.flex-column{
+	display: flex;
+	flex-direction: column;
+}
+
 .flex-row{
 	display: flex;
 	flex-direction: row;
@@ -348,6 +359,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: var(--white) url(../img/digital-collateral/digital-two-bg.jpg) center center no-repeat;
 	background-size: cover;
 	min-height: 50vh;
+}
+
+#license{
+	display: flex;
+	background: var(--white) url(../img/license/license-bg.jpg) center center no-repeat;
+	background-size: cover;
+	min-height: 100vh;
 }
 
 /* Contact Section */
@@ -482,16 +500,20 @@ color: var(--grey);
 
 .white{
 	color:var(--white);
-  }
+}
 
-  .grey{
-	  color: var(--grey);
-  }
+.white-transp{
+	background-color:rgba(255, 255, 255, 0.70);
+}
 
-  .maincolor{
-	  color: var(--mainprimary);
-  }
+.grey{
+	color: var(--grey);
+}
 
-  .mainprimary{
-	  color: var(--mainprimary);
-  }
+.maincolor{
+	color: var(--mainprimary);
+}
+
+.mainprimary{
+	color: var(--mainprimary);
+}
