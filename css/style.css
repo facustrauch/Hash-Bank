@@ -10,7 +10,6 @@
 	/* Design by Facundo A. Strauch and Brian Corbalan */
 }
 
-
   .bold{
 	  font-weight: 700;
   }
@@ -291,7 +290,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	min-height: 100vh;
 	padding: 0;
 	padding-top: 110px;
-	padding-bottom: 35px;
+	padding-bottom: 50px;
 	background: url(../img/hero_bg.jpg) top center no-repeat;
 	background-color: var(--background);
 	-webkit-background-size: cover;
@@ -344,8 +343,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: var(--white) url(../img/tailor-made/tailor_background.jpg) center center no-repeat;
 	background-size: cover;
 	min-height: 100vh;
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #tresuary{
@@ -353,8 +352,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: var(--white) url(../img/tresuary/tresuary-bg.jpg) center center no-repeat;
 	background-size: cover;
 	min-height: 100vh;
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #digital-a{
@@ -362,8 +361,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: var(--background) url(../img/digital-collateral/digital-one-bg.jpg) center center no-repeat;
 	background-size: cover;
 	min-height: 50vh;
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #digital-b{
@@ -371,8 +370,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: var(--background) url(../img/digital-collateral/digital-two-bg.jpg) center center no-repeat;
 	background-size: cover;
 	min-height: 50vh;
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .digital-img{
@@ -402,8 +401,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: var(--background) url(../img/license/license-bg.jpg) center center no-repeat;
 	background-size: cover;
 	min-height: 100vh;
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #operating{
@@ -411,6 +410,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: var(--background) center center no-repeat;
 	background-size: cover;
 	min-height: 50vh;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #operating-b{
