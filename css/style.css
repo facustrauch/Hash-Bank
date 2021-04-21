@@ -423,16 +423,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .operation-cont{
 	display: flex;
 	justify-content: space-evenly;
+	flex-direction: row;
 }
 
 @media (max-width: 768px){
-	@media (max-width: 768px){
-		.operation-cont{
-			display: grid;
-			grid-gap: 1em;
-			grid-row-gap: 1em;
-			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );
-		}
+	.operation-cont{
+		flex-direction: column;
 	}
 }
 
