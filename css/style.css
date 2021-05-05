@@ -143,12 +143,6 @@ hr {
 	margin-top: 0;
 }
 
-@media (max-width: 300px){
-	.logo_img {
-		height: 80%;
-		margin-top: 8px;
-	}
-}
 
 @media (max-width: 992px) {
 	.logo_img {
@@ -160,6 +154,13 @@ hr {
 @media (max-width: 767px) {
 	.logo_img {
 		margin-left: 20px;
+	}
+}
+
+@media (max-width: 359px){
+	.logo_img {
+		height: 60%;
+		margin-top: 8px;
 	}
 }
 
@@ -184,14 +185,6 @@ hr {
     border-radius: 0;
     margin: 9px 15px 0 15px;
 }
-
-@media (max-width: 992px) {
-	#menu.navbar-default .navbar-nav > li > a {
-		margin: 9px 5px 0 5px;
-	}
-}
-
-
 
 #menu.navbar-default .navbar-nav > li > a:hover {
 	color: var(--maindark);
@@ -360,7 +353,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: flex;
 	background: var(--background) url(../img/digital-collateral/digital-one-bg.jpg) center center no-repeat;
 	background-size: cover;
-	min-height: 50vh;
+	min-height: 65vh;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -565,6 +558,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .maincolor{
 	color: var(--mainprimary);
+}
+
+.maindark{
+	color: var(--maindark);
 }
 
 .mainprimary{
