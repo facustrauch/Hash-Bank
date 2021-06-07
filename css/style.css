@@ -14,6 +14,10 @@
 	  font-weight: 700;
   }
 
+ #thehashbank{
+	 z-index: 1;
+ }
+
 body, html {
 	font-family: 'Lato', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -22,6 +26,7 @@ body, html {
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
+	z-index: 1;
 }
 h2 {
 	font-family: 'Lato', sans-serif;
@@ -60,7 +65,7 @@ a:hover, a:focus {
 }
 .logo_text{
 	font-size: 17px;
-    text-align: right;
+    text-align: center;
     margin-bottom: 5px;
 	color:  var(--white);
 }
@@ -283,12 +288,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro {
 	display: table;
 	width: 100%;
-	min-height: 100vh;
 	padding: 0;
-	padding-top: 110px;
-	padding-bottom: 50px;
-	background: url(../img/hero_bg.jpg) top center no-repeat;
-	background-color: var(--background);
+	padding-top: 20vh;
+	padding-bottom: 5vh;
+	min-height: 50vh;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -573,3 +576,90 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 
 
+.hero .video-container {
+height: 100vh;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+  }
+
+.video-container-two {
+	height: 100vh;
+	width: 100%;
+	object-fit: cover;
+  }
+
+.otro{
+	position: absolute;
+	width: 100%;
+	min-height: 100vh ;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro {
+	display: table;
+	width: 100%;
+	padding: 0;
+	padding-top: 30vh;
+	padding-bottom: 15vh;
+	min-height: 50vh;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+
+.whiteban{
+	width: 100%;
+	background-color: white;
+    display: flex;
+    min-height: 120px;
+}
+
+.whiteban_cont{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+	flex-direction: row;
+  }
+  
+
+  @media (max-width: 768px){
+	.whiteban_cont{
+		flex-direction: column;
+	}
+	.intro{
+		padding-top: 25vh;
+	}
+}
+
+  .whiteban_div{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+	margin: 10px 0px;
+  }
+
+  .icon{
+	max-width: 20px; 
+  }
+
+  .whiteban_text{
+	  margin: 0px 0px 0px 10px;
+  }
+
+  .footertemp{
+	margin-top: 20px;
+    margin-bottom: 35px;
+  }
