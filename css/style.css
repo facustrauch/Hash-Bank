@@ -674,6 +674,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 		width: 100%;
 		justify-content: center;
 	}
+	.hero .video-container {
+		min-height: 0px;
+	}
+		
+	.video-container-two {
+		min-height: 0px;
+	}
 }
 
   .icon{
