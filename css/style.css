@@ -706,7 +706,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   .lastfootertext{
 	  padding: 15px 15px 3em 15px;
   }
-  
-  .p15{
 
+  .pb-3em{
+	  padding-bottom: 3em;
+  }
+
+  .fsize20{
+	  font-size: 20px;
   }
