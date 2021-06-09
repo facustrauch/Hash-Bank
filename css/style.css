@@ -33,7 +33,7 @@ h2 {
 	margin: 0 0 20px 0;
 	font-weight: 700;
 	font-size: 34px;
-	color: var(--mainprimary);
+	color: var(--black);
 }
 h3{
 	font-family: 'Lato', sans-serif;
@@ -139,6 +139,9 @@ hr {
 }
 .mt-3em{
 	margin-top: 3em;
+}
+.mt-1em{
+	margin-top: 1em;
 }
 
 /* Navigation */
@@ -355,6 +358,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding-bottom: 50px;
 }
 
+#products{
+	display: flex;
+	background: var(--white) url(../img/products/products-bg.jpg) center center no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
 #digital-a{
 	display: flex;
 	background: var(--background) url(../img/digital-collateral/digital-one-bg.jpg) center center no-repeat;
@@ -551,7 +563,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .white-transp{
-	background-color:rgba(255, 255, 255, 0.70);
+	background-color:rgba(255, 255, 255, 1);
 }
 
 .black{
@@ -601,16 +613,16 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	z-index: 2;
 	display: flex;
 	flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .intro {
-	display: table;
+	display: flex;
 	width: 100%;
 	padding: 0;
-	padding-top: 30vh;
-	padding-bottom: 15vh;
-	min-height: 50vh;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	min-height: 800px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -693,5 +705,22 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
   .footertemp{
 	margin-top: 20px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
+  }
+
+  #newfooter{
+	  background-color: var(--maindark);
+  }
+
+  .marginnewfooter{
+	  margin-bottom: 3em;
+	  min-height: 10px;
+  }
+
+  .lastfootertext{
+	  padding: 15px 15px 3em 15px;
+  }
+  
+  .p15{
+	  
   }
