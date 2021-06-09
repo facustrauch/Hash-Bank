@@ -288,18 +288,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 /* Header Section */
-.intro {
-	display: table;
-	width: 100%;
-	padding: 0;
-	padding-top: 20vh;
-	padding-bottom: 5vh;
-	min-height: 50vh;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-}
+
 
 .logo_animated{
 	width: 100%;
@@ -621,7 +610,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 100%;
 	padding: 0;
 	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-bottom: 150px;
 	min-height: 800px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -675,9 +664,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	.whiteban_cont{
 		flex-direction: column;
 	}
-	.intro{
-		padding-top: 25vh;
-	}
 	.whiteban_div_one{
 		width: 100%;
 		justify-content: center;
@@ -722,5 +708,5 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
   
   .p15{
-	  
+
   }
